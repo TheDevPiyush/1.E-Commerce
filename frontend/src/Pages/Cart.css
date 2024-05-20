@@ -1,0 +1,28 @@
+.cart-parent {
+    width: 100svw;
+    height: 100svh;
+}
+.cart-products-container{
+    width: 100%;
+    overflow: auto;
+}
+
+.cart-products {
+    height:max-content;
+    width: max-content;
+    display: flex;
+}
+
+.cart-products>.mycard {
+    border-radius: 20px;
+    scale: 0.9;
+}
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.empty-cart{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
